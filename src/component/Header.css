@@ -1,0 +1,38 @@
+.headers{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    width: 100vw;
+    height: 100px;
+    transition: all .5s;
+}
+.black{
+    background-color: #111;
+}
+.logo{
+    width: 60px;
+    box-sizing: border-box;
+    height: 100px;
+    margin-left: 10px;
+}
+.company_logo{
+    width: 60px;
+    height: 100px;
+    object-fit: contain;
+    
+    position: fixed;
+}
+.status{
+    width: 40px;
+    height: 100px;
+    margin-right: 100px;
+}
+.member_status{
+    width: 40px;
+    height: 100px;
+    object-fit: contain;
+    position: fixed;
+}

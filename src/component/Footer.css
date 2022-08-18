@@ -1,0 +1,28 @@
+.footers{
+    color: #fff;
+    background-color: #111;
+    font-size: 1.4rem;
+    padding: 8rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-weight: 500;
+    opacity: 0;
+    transition: all 1s ease;
+}
+dt, dd{
+    padding-bottom: 1rem;
+}
+.visible{
+    opacity: 1;
+}
+.footers a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #eedcce;
+    transition: all 1s ease-in-out;
+}
+.footers a:hover{
+    color: #faa038;
+
+}
